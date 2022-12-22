@@ -1,7 +1,7 @@
 import telebot
 import Compres
 
-token = '5942313125:AAE5H3734npJfa-_DBTgxaJYZ7CqyEePcJw'
+
 bot = telebot.TeleBot(token)
 
 @bot.message_handler(commands=['start'])
