@@ -2,7 +2,7 @@ import telebot
 import random
 import Compres
 
-name = '5710747140:AAHeP_BCpDYTHkLXw-uDN81rUL9-_x7tJqs'
+
 bot = telebot.TeleBot(name)
 
 @bot.message_handler(commands=['start'])
